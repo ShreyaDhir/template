@@ -1,36 +1,38 @@
 {
-  "name": "template",
+  "name": "portfolio-homepage/",
   "version": "1.0.0",
   "description": "Shreya's portfolio",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
     "prettier": "prettier -write .",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ShreyaDhir/template.git"
   },
   "keywords": [],
-  "author": "Shreya Dhir<dhirshreya@gmail.com>",
+  "author": "Shreya Dhir",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ShreyaDhir/template/issues"
   },
   "homepage": "https://github.com/ShreyaDhir/template#readme",
   "dependencies": {
-    "@chakra-ui/react": "^1.7.1",
-    "@emotion/react": "^11.6.0",
+    "@chakra-ui/react": "^1.7.4",
+    "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
-    "framer-motion": "^5.3.0",
-    "next": "^12.0.4",
+    "framer-motion": "^5.6.0",
+    "next": "^12.0.8",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-config-next": "^12.0.4",
-    "prettier": "^2.4.1"
+    "eslint": "^8.7.0",
+    "eslint-config-next": "^12.0.8",
+    "prettier": "^2.5.1"
   }
 }
